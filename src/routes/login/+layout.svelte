@@ -16,7 +16,7 @@
     <a
       href="/login/photo"
       class="step"
-      class:step-primary={$page.route.id?.includes("photo")}>
+      class:step-primary={$page.route.id?.includes('photo')}>
       Upload Photo
     </a>
   </ul>
@@ -25,7 +25,7 @@
 <AnimatedRoute>
   <main class="card w-4/6 bg-neutral text-neutral-content mx-auto">
     <div class="card-body items-center text-center">
-      <slot />
+      <slot/>
     </div>
   </main>
 </AnimatedRoute>
